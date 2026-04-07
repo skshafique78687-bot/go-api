@@ -46,7 +46,7 @@ func main() {
 
 	port := os.Getenv("PORT")
 	if port == "" {
-		port = "8082"
+		port = "8050"
 	}
 
 	http.ListenAndServe(":"+port, nil)
